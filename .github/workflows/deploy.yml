@@ -1,7 +1,6 @@
-#TODO: What is this line of code doing
+
 name: Deploy
 
-#TODO: What is this block of code doing
 on:
     push:
       branches: [main]
@@ -9,7 +8,7 @@ on:
       branches:
         - main
         
-#TODO: What is this block of code doing   
+
 jobs:
     ci:
       runs-on: ubuntu-latest
