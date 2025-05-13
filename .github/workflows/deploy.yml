@@ -1,0 +1,18 @@
+name: Deploy
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Render
+        env:
+          DEPLOY_URL: https://api.render.com/deploy/srv-d0h7tquuk2gs73f5jhr0?key=RugjYkXIxc0
+        run: |
+          curl "$DEPLOY_URL"
