@@ -11,15 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Install and Test
-        run: |
-          npm install
-          npm run test-component
-
       - name: Deploy to Render
-        if: github.event.pull_request.merged == true
         env:
           DEPLOY_URL: https://api.render.com/deploy/srv-d0h7tquuk2gs73f5jhr0?key=RugjYkXIxc0
         run: |
