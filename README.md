@@ -1,5 +1,18 @@
-# 19 CI-CD: GitHub Actions CI/CD Setup
+# 20 CI-CD: GitHub Actions CI/CD Setup
 
+
+-[GitHub Repository](https://github.com/Liz-Melcher/ContinuousIntegrationAndTesting)
+-[Render Website](https://continuousintegrationandtesting.onrender.com/)
+
+## Description
+This is a project to demonstrate integration and testing. The client and server code was provided and students need to write the testing code in the .github folder, and deploy to render. 
+![Screenshot](/assets/GitHubScreenShotPassingTests.png)
+
+## Installation
+To deploy the working code, follow the instructions in the package.json file
+To deploy the integration and testing, create a file called .github and add workflows to that folder.
+
+## Original instructions: 
 ## Your Task
 
 As applications scale and develop, developers want to ensure that certain quality checks are met prior to merging to important branches; thus, you'll want to familiarize yourself with Continuous Integration (CI) and Continuous Deployment (CD) that are common practices used to ensure consistency, quality, and deployment of latest code once all checks have been met and merged to `main`.
